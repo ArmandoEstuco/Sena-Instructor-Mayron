@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactanos</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ff0000;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ff0000;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            border: 2px solid rgb(255, 0, 0);
+            padding: 20px;
+            background-color: #0b0a0a;
+            border-radius: 12px;
+            box-shadow: 0 0px 12px #000000;
+        }
+
+        h3 {
+            color: #ff0000;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            box-sizing: border-box;
+            background-color: #2b2b2b;
+            border: 1px solid #444;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        input[type="file"] {
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff0000;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000000;
+            margin-top: 40px;
+            border-top: 2px solid #ff0000;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contactanos</h1>
+    </header>
+    <!-- boton de regresar al menu :) -->
+    <nav style="text-align:center; margin:20px; border:solid white;">
+        <a href="/" style="color:#ff0000; text-decoration:none; font-weight:bold;">
+            Regresar al menu
+        </a>
+    </nav>
+    <div class="container">
+        <form>
+            <h3>CONTACTANOS</h3>
+
+            <p>
+                Ingresa tu Nombre:
+                <input type="text" name="nombres">
+            </p>
+
+            <p>
+                Ingresa tus Apellidos:
+                <input type="text" name="apellidos">
+            </p>
+
+            <p>
+                Deja el mensaje:
+                <textarea name="mensaje"></textarea>
+            </p>
+
+            <p>
+                Fecha de nacimiento:
+                <input type="date" name="fecha_nacimiento">
+            </p>
+
+            <p>
+                Seleccione tu tipo de documento:
+                <select name="Tipo_documento">
+                    <option>R.C.</option>
+                    <option>T.I.</option>
+                    <option>C.C.</option>
+                    <option>C.E.</option>
+                </select>
+            </p>
+
+            <p>
+                Digita tu número de identificación:
+                <input type="number" name="documento">
+            </p>
+
+            <p>
+                Adjunta tu Foto:
+                <input type="file" name="foto">
+            </p>
+
+            <input type="submit" value="Enviar formulario">
+        </form>
+    </div>
+
+    <footer>
+        © 2099 Contactanos - Diseñado por alguien
+    </footer>
+</body>
+</html>

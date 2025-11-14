@@ -1,0 +1,8 @@
+ACTIVAR SCRIPT DEL .VENV
+
+./.venv/Scripts/activate   
+
+
+DESACTIVAR SECRIPT DEL .VENV
+
+deactivate
