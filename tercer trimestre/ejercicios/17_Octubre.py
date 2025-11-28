@@ -21,14 +21,6 @@ est2 = estudiantes("clara perez", 24, "programacion de software")
 est1.mostrar_informacion()
 est2.mostrar_informacion()
 """
-
-
-
-
-
-
-
-
 # clase
 class Empleados:
     def __init__ (self, nombre_completo, edad, identificacion, area):
